@@ -1,0 +1,49 @@
+html,
+body
+{
+    min-width: 360px;
+}
+
+[ng-controller='p6gdController']
+{
+    font-size: 20px;
+    line-height: 1.5;
+
+    text-align: justify;
+
+    .sub
+    {
+        &-h1
+        {
+            font-size: 1.25em;
+            font-weight: bold;
+
+            display: block;
+
+            margin-top: .25em;
+        }
+
+        &-h2
+        {
+            font-weight: bold;
+            font-style: italic;
+
+            display: block;
+        }
+
+        &-h3
+        {
+            display: block;
+
+            margin-top: .25em;
+        }
+    }
+
+    .text
+    {
+        &.bold
+        {
+            font-weight: bold;
+        }
+    }
+}

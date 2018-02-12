@@ -1,0 +1,13 @@
+﻿{
+   "options": {
+      "singleQuotes": true
+   },
+   "app": {
+      "files": {
+         "resources/assets/js/main-app/min-safe/MainApp.js": [
+            "resources/assets/js/main-app/MainApp.js",
+            "resources/assets/js/main-app/p6gdController.js"
+         ]
+      }
+   }
+}

@@ -1,0 +1,11 @@
+.env.example;*.csproj*;*.sln;*.lock;*-lock.*;webpack.mix.js
+D:\web\php\php.exe
+
+@highlight(an)
+
+--------------------------------------------------------
+
+php artisan make:command Main
+php artisan make:controller HomeController
+
+php artisan main:run
