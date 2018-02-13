@@ -1,15 +1,30 @@
+@import 'default-values.less';
+
 html,
 body
 {
-    min-width: 360px;
-}
-
-[ng-controller='p6gdController']
-{
-    font-size: 20px;
+    font-size: @default-font-size;
     line-height: 1.5;
 
+    min-width: 360px;
+
     text-align: justify;
+}
+
+[ng-app='p6gdChapter']
+{
+    margin-bottom: 15px;
+
+    #main-header
+    {
+        font-size: 1.5em;
+        line-height: 64px;
+
+        height: 64px;
+
+        color: @clr-white;
+        background-color: @primary-color;
+    }
 
     .sub
     {
@@ -20,7 +35,7 @@ body
 
             display: block;
 
-            margin-top: .25em;
+            margin-top: .5em;
         }
 
         &-h2
@@ -33,6 +48,8 @@ body
 
         &-h3
         {
+            font-style: italic;
+
             display: block;
 
             margin-top: .25em;
@@ -45,5 +62,13 @@ body
         {
             font-weight: bold;
         }
+    }
+
+    .hightlight
+    {
+        font-weight: bold;
+        font-style: normal;
+
+        color: @highlight-color;
     }
 }

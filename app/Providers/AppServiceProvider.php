@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
    public function boot()
    {
       Blade::directive('highlight', function ($expression) {
-         return '<a class="md-primary text bold">' . $expression . '</a>';
+         return '<span class="hightlight">' . $expression . '</span>';
       });
    }
 

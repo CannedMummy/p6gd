@@ -1,27 +1,41 @@
 html,
 body {
-  min-width: 360px;
-}
-[ng-controller='p6gdController'] {
   font-size: 20px;
   line-height: 1.5;
+  min-width: 360px;
   text-align: justify;
 }
-[ng-controller='p6gdController'] .sub-h1 {
+[ng-app='p6gdChapter'] {
+  margin-bottom: 15px;
+}
+[ng-app='p6gdChapter'] #main-header {
+  font-size: 1.5em;
+  line-height: 64px;
+  height: 64px;
+  color: #fff;
+  background-color: #000;
+}
+[ng-app='p6gdChapter'] .sub-h1 {
   font-size: 1.25em;
   font-weight: bold;
   display: block;
-  margin-top: .25em;
+  margin-top: .5em;
 }
-[ng-controller='p6gdController'] .sub-h2 {
+[ng-app='p6gdChapter'] .sub-h2 {
   font-weight: bold;
   font-style: italic;
   display: block;
 }
-[ng-controller='p6gdController'] .sub-h3 {
+[ng-app='p6gdChapter'] .sub-h3 {
+  font-style: italic;
   display: block;
   margin-top: .25em;
 }
-[ng-controller='p6gdController'] .text.bold {
+[ng-app='p6gdChapter'] .text.bold {
   font-weight: bold;
+}
+[ng-app='p6gdChapter'] .hightlight {
+  font-weight: bold;
+  font-style: normal;
+  color: #0d47a1;
 }

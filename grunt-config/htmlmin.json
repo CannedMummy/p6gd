@@ -1,7 +1,7 @@
 ﻿{
    "build": {
       "options": {
-         "collapseInlineTagWhitespace": true,
+         "collapseInlineTagWhitespace": false,
          "collapseWhitespace": true,
          "minifyCSS": true,
          "minifyJS": true,

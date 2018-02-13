@@ -2,6 +2,8 @@
 D:\web\php\php.exe
 
 @highlight(an)
+<span class="hightlight">$SELECTION$</span>
+&#x2000;
 <i class="material-icons">arrow_forward</i>
 --------------------------------------------------------
 
